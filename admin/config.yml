@@ -1,0 +1,165 @@
+# Sveltia CMS settings for Harish Reddy's portfolio.
+# The editor lives at /admin and edits content/site.json.
+# Sign-in uses a GitHub fine-grained personal access token only.
+
+backend:
+  name: github
+  repo: arjunreddi02-cell/arjunreddi02-cell.github.io
+  branch: main
+  auth_methods: [token]
+  commit_messages:
+    update: "Update portfolio content via /admin"
+    uploadMedia: "Upload {{path}} via /admin"
+    deleteMedia: "Delete {{path}} via /admin"
+
+site_url: https://arjunreddi02-cell.github.io
+display_url: https://arjunreddi02-cell.github.io
+media_folder: /media
+public_folder: /media
+
+collections:
+  - name: portfolio
+    label: Portfolio
+    editor:
+      preview: false
+    files:
+      - name: content
+        label: Portfolio content
+        file: content/site.json
+        format: json
+        fields:
+
+          # ── PROFILE & HERO ─────────────────────────────────────────
+          - { name: name, label: "Name", widget: string }
+          - { name: title, label: "Title (top bar & footer)", widget: string, hint: "e.g. Hybrid AI Director" }
+          - { name: subtitle, label: "Subtitle (small amber line above the headline)", widget: string }
+          - { name: location, label: "Location", widget: string }
+          - { name: photo, label: "Portrait photo (4:5, under 1 MB)", widget: image, choose_url: false, hint: "Your face in the upper half works best." }
+          - name: tagline
+            label: "Headline (exactly 3 lines; the 2nd line is amber italic)"
+            widget: list
+            min: 3
+            max: 3
+            field: { name: line, label: "Line", widget: string }
+          - { name: intro, label: "Intro paragraph", widget: text }
+          - name: stats
+            label: "Number tiles (4 work best; the first also shows on the photo)"
+            widget: list
+            summary: "{{value}} · {{label}}"
+            fields:
+              - { name: value, label: "Number", widget: string, hint: "e.g. 3+, 4, 45s" }
+              - { name: label, label: "Label", widget: string }
+              - { name: note, label: "Small note", widget: string, required: false }
+          - name: roles
+            label: "Scrolling roles ticker"
+            widget: list
+            field: { name: role, label: "Role", widget: string }
+
+          # ── WORK ───────────────────────────────────────────────────
+          - name: categories
+            label: "Work tabs (in display order)"
+            widget: list
+            hint: "Keep these four names. Adding or renaming a tab also needs the Category choices below updated in admin/config.yml (ask an AI)."
+            field: { name: tab, label: "Tab", widget: string }
+          - { name: emptyNote, label: "Text in an empty tab", widget: string, required: false }
+          - name: work
+            label: "Films & projects (top = first on the site)"
+            label_singular: "Film"
+            widget: list
+            summary: "{{title}} · {{category}} · {{status}}"
+            fields:
+              - { name: title, label: "Title", widget: string }
+              - name: category
+                label: "Tab"
+                widget: select
+                options: ["Films", "AI Films", "Cinematic Demos", "Commercial Ads"]
+              - { name: role, label: "Your role", widget: string, required: false, hint: "e.g. Director, Creative Director, Assistant DOP" }
+              - { name: year, label: "Year", widget: string, required: false }
+              - { name: duration, label: "Duration", widget: string, required: false, hint: "e.g. 0:45" }
+              - { name: format, label: "Format label", widget: string, required: false, hint: "e.g. Spec commercial · 16:9" }
+              - name: status
+                label: "Status"
+                widget: select
+                options: ["Released", "In production", "Post-production", "Coming soon"]
+              - { name: description, label: "Description (1–2 lines)", widget: text }
+              - { name: video, label: "Video link", widget: string, required: false, hint: "YouTube, Vimeo or Google Drive link (Drive: Anyone with the link). Plays on your page. Leave empty to show 'Link coming'." }
+              - { name: image, label: "Thumbnail (optional, 16:9)", widget: image, required: false, choose_url: false, hint: "Leave empty for YouTube/Drive: the thumbnail is taken from the video automatically." }
+
+          # ── EXPERIENCE ─────────────────────────────────────────────
+          - name: experience
+            label: "Experience (newest first)"
+            label_singular: "Job"
+            widget: list
+            summary: "{{when}} · {{role}}"
+            fields:
+              - { name: when, label: "When", widget: string, hint: "e.g. 2026 or 2024 – 26" }
+              - { name: place, label: "Place", widget: string, required: false }
+              - { name: role, label: "Role", widget: string }
+              - { name: org, label: "Company / project", widget: string, required: false }
+              - { name: now, label: "Current job (shows the amber 'Now' badge; use on one job only)", widget: boolean, default: false, required: false }
+              - name: points
+                label: "What you did"
+                widget: list
+                required: false
+                field: { name: point, label: "Point", widget: text }
+          - name: education
+            label: "Education"
+            widget: list
+            summary: "{{name}}"
+            fields:
+              - { name: name, label: "Degree", widget: string }
+              - { name: place, label: "Institution", widget: string }
+          - name: languages
+            label: "Languages"
+            widget: list
+            field: { name: language, label: "Language", widget: string }
+
+          # ── ABOUT, SKILLS, TOOLKIT ─────────────────────────────────
+          - name: about
+            label: "About paragraphs (the first is shown larger)"
+            widget: list
+            field: { name: paragraph, label: "Paragraph", widget: text }
+          - { name: canvasLine, label: "Big quote", widget: string, hint: "Ends with 'my new canvas.' to keep the amber highlight." }
+          - name: pillars
+            label: "Three cards (On set / On stage / On screen)"
+            widget: list
+            summary: "{{name}}"
+            fields:
+              - { name: name, label: "Title", widget: string }
+              - { name: text, label: "Text", widget: text }
+          - name: skills
+            label: "What I do cards"
+            widget: list
+            summary: "{{name}}"
+            fields:
+              - { name: area, label: "Small label", widget: string }
+              - { name: name, label: "Title", widget: string }
+              - { name: text, label: "Text", widget: text }
+              - { name: proof, label: "Proven on", widget: string, required: false }
+          - name: tools
+            label: "Toolkit"
+            widget: object
+            fields:
+              - name: generation
+                label: "AI generation & voice tools"
+                widget: list
+                field: { name: tool, label: "Tool", widget: string }
+              - name: post
+                label: "Writing, post & production tools"
+                widget: list
+                field: { name: tool, label: "Tool", widget: string }
+          - name: crafts
+            label: "Craft chips"
+            widget: list
+            field: { name: craft, label: "Skill", widget: string }
+
+          # ── CONTACT ────────────────────────────────────────────────
+          - name: contact
+            label: "Contact"
+            widget: object
+            fields:
+              - { name: email, label: "Email", widget: string }
+              - { name: phone, label: "Phone", widget: string }
+              - { name: linkedin, label: "LinkedIn link", widget: string, required: false, hint: "Full link starting with https://. Shown only when filled." }
+              - { name: instagram, label: "Instagram link", widget: string, required: false }
+              - { name: youtube, label: "YouTube channel link", widget: string, required: false }

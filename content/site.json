@@ -49,7 +49,7 @@
   "work": [
     {
       "title": "Kini",
-      "category": "AI Films",
+      "category": "Films",
       "role": "Assistant DOP",
       "year": "",
       "duration": "",
@@ -90,9 +90,9 @@
       "year": "2026",
       "duration": "",
       "format": "AI film · Headlines Studio",
-      "status": "Released",
+      "status": "Coming soon",
       "description": "AI video production for Headlines Studio. Creative direction and workflow, delivered remotely.",
-      "video": "",
+      "video": "https://drive.google.com/file/d/1WpTflVu8KURq48Omq1C0A2rig3GYfTeq/view?usp=sharing",
       "image": ""
     },
     {
@@ -102,21 +102,21 @@
       "year": "2026",
       "duration": "",
       "format": "AI microdrama · Headlines Studio",
-      "status": "Released",
+      "status": "In production",
       "description": "An AI microdrama for Headlines Studio, directed for character, continuity and episodic pacing.",
-      "video": "",
+      "video": "https://drive.google.com/file/d/12UyGgNzFt_fm2ET_la0xWVbx-TTUKeSe/view?usp=sharing",
       "image": ""
     },
     {
       "title": "Ka-ranam",
       "category": "Films",
-      "role": "Assistant DOP",
+      "role": "Assistant DOP + Actor",
       "year": "",
       "duration": "",
       "format": "Independent film · Tamil, Telugu",
       "status": "Post-production",
       "description": "Independent bilingual feature in Tamil and Telugu, currently in post-production.",
-      "video": "",
+      "video": "https://youtu.be/kJLdY-aq97Q?si=WTt1B--F43F629DY",
       "image": ""
     }
   ],

@@ -118,6 +118,18 @@
       "description": "Independent bilingual feature in Tamil and Telugu, currently in post-production.",
       "video": "https://youtu.be/kJLdY-aq97Q?si=WTt1B--F43F629DY",
       "image": ""
+    },
+    {
+      "title": "3 Test ADs - South Indian",
+      "category": "Commercial Ads",
+      "role": "",
+      "year": "",
+      "duration": "",
+      "format": "",
+      "status": "Released",
+      "description": "I generated Test ads for Daily Bhakti App using Google Flow",
+      "video": "",
+      "image": ""
     }
   ],
   "experience": [
@@ -135,7 +147,7 @@
     {
       "when": "2025",
       "place": "Goa",
-      "role": "Assistant Creative Director",
+      "role": "Associate Creative Director",
       "org": "Miss P&I India",
       "now": false,
       "points": [

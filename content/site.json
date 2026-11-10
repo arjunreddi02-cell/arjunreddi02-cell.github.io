@@ -138,10 +138,20 @@
       "place": "Bengaluru · Remote",
       "role": "Creative Director, AI video production",
       "org": "Headlines Studio · Freelance",
-      "now": true,
+      "now": false,
       "points": [
         "Led creative direction and workflow for AI films: Last Boat and Fantastic Beasts (microdrama).",
         "Independent Google Flow trials: Blue Gold and Loveland Draft."
+      ]
+    },
+    {
+      "when": "2026",
+      "place": "",
+      "role": "Production Co-ordinator",
+      "org": "Indiverse Entertainment",
+      "now": false,
+      "points": [
+        "Orchestrated physical production logistics, camera crews, and pitch deck development for Indiverse Entertainment, bridging on-set technical execution"
       ]
     },
     {
@@ -177,14 +187,6 @@
       "points": [
         "Worked for months with writers and the creative team to refine the screenplay, narrative arcs, character development and thematic direction."
       ]
-    },
-    {
-      "when": "2026",
-      "place": "",
-      "role": "Asst.Production",
-      "org": "Indiverse Entertainment",
-      "now": false,
-      "points": []
     }
   ],
   "education": [

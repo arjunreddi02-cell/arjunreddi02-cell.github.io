@@ -33,7 +33,6 @@
     }
   ],
   "roles": [
-    "Hybrid AI Director",
     "Creative Director",
     "Assistant Cinematographer",
     "AI Video Production",
@@ -43,7 +42,8 @@
     "Films",
     "AI Films",
     "Cinematic Demos",
-    "Commercial Ads"
+    "Commercial Ads",
+    "My workflow"
   ],
   "emptyNote": "New work coming soon.",
   "work": [

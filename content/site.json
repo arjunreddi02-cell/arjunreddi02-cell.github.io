@@ -1,16 +1,15 @@
 {
   "name": "Harish Reddy",
-  "title": "Hybrid AI Director",
+  "title": "Creative AI Director",
   "subtitle": "Creative Director · Assistant Cinematographer",
   "location": "Bengaluru, India",
   "photo": "harish_portrait.jpg",
   "tagline": [
     "Machines make footage.",
-    "I make",
+    "I create",
     "films."
   ],
   "intro": "Creative Director and Assistant Cinematographer with 3+ years across independent film, a large-format live event and AI filmmaking. I take visual stories from script to screen: shot design, camera composition, lighting and cinematic concepts, now directed through AI tools.",
-  "canvasLine": "AI video tools are my new canvas.",
   "stats": [
     {
       "value": "3+",
@@ -40,11 +39,157 @@
     "AI Video Production",
     "Visual Storyteller"
   ],
+  "categories": [
+    "Films",
+    "AI Films",
+    "Cinematic Demos",
+    "Commercial Ads"
+  ],
+  "emptyNote": "New work coming soon.",
+  "work": [
+    {
+      "title": "Kini",
+      "category": "Films",
+      "role": "Assistant DOP",
+      "year": "",
+      "duration": "",
+      "format": "Independent film · Kannada",
+      "status": "Released",
+      "description": "Independent Kannada film shot in Bangalore. Assisted the DOP on framing, camera movement and on-set coordination.",
+      "video": "https://youtu.be/8jjDsmFPISQ",
+      "image": ""
+    },
+    {
+      "title": "Blue Gold",
+      "category": "Cinematic Demos",
+      "role": "Director",
+      "year": "2026",
+      "duration": "",
+      "format": "Independent trial · Google Flow",
+      "status": "Released",
+      "description": "An independent cinematic trial built in Google Flow, directed shot by shot for look, light and continuity.",
+      "video": "https://drive.google.com/file/d/1FpebourdB-mAZb-g90_AOU5Hw6ICHefm/view",
+      "image": ""
+    },
+    {
+      "title": "Loveland Draft",
+      "category": "Cinematic Demos",
+      "role": "Director",
+      "year": "2026",
+      "duration": "",
+      "format": "Independent trial · Google Flow",
+      "status": "Released",
+      "description": "A story-led AI draft made in Google Flow, exploring character, mood and pacing.",
+      "video": "https://drive.google.com/file/d/1yC_aMG9zvpc1xpTy5m57DXOZqKJfAeSd/view",
+      "image": ""
+    },
+    {
+      "title": "Last Boat",
+      "category": "AI Films",
+      "role": "Creative Director",
+      "year": "2026",
+      "duration": "",
+      "format": "AI film · Headlines Studio",
+      "status": "Released",
+      "description": "AI video production for Headlines Studio. Creative direction and workflow, delivered remotely.",
+      "video": "",
+      "image": ""
+    },
+    {
+      "title": "Fantastic Beasts",
+      "category": "AI Films",
+      "role": "Creative Director",
+      "year": "2026",
+      "duration": "",
+      "format": "AI microdrama · Headlines Studio",
+      "status": "Released",
+      "description": "An AI microdrama for Headlines Studio, directed for character, continuity and episodic pacing.",
+      "video": "",
+      "image": ""
+    },
+    {
+      "title": "Ka-ranam",
+      "category": "Films",
+      "role": "Assistant DOP",
+      "year": "",
+      "duration": "",
+      "format": "Independent film · Tamil, Telugu",
+      "status": "Post-production",
+      "description": "Independent bilingual feature in Tamil and Telugu, currently in post-production.",
+      "video": "",
+      "image": ""
+    }
+  ],
+  "experience": [
+    {
+      "when": "2026",
+      "place": "Bengaluru · Remote",
+      "role": "Creative Director, AI video production",
+      "org": "Headlines Studio · Freelance",
+      "now": true,
+      "points": [
+        "Led creative direction and workflow for AI films: Last Boat and Fantastic Beasts (microdrama).",
+        "Independent Google Flow trials: Blue Gold and Loveland Draft."
+      ]
+    },
+    {
+      "when": "2025",
+      "place": "Goa",
+      "role": "Assistant Creative Director",
+      "org": "Miss P&I India",
+      "now": false,
+      "points": [
+        "Directed the overall creative vision and stage storytelling, aligning theme and visual presentation.",
+        "Kept creative vision and production logistics in sync from concept to final event delivery, with 80% accuracy.",
+        "Worked with sponsors and event partners to integrate brand segments into the show, closing business deals at 90% profit."
+      ]
+    },
+    {
+      "when": "2024 – 26",
+      "place": "Bangalore",
+      "role": "Assistant DOP, independent films",
+      "org": "Kini (Kannada) · Ka-ranam (Tamil, Telugu)",
+      "now": false,
+      "points": [
+        "Kini: released.",
+        "Ka-ranam: in post-production.",
+        "Assistant production (freelance) at Mudskipper Labs."
+      ]
+    },
+    {
+      "when": "2023",
+      "place": "Bangalore",
+      "role": "Spy Thriller, feature film (Kannada, Telugu)",
+      "org": "Creative team · Project shelved",
+      "now": false,
+      "points": [
+        "Worked for months with writers and the creative team to refine the screenplay, narrative arcs, character development and thematic direction."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "name": "MBA, Human Resource Management",
+      "place": "Andhra University"
+    },
+    {
+      "name": "B.Tech, Electronics & Communication",
+      "place": "ANITS"
+    }
+  ],
+  "languages": [
+    "Telugu",
+    "Hindi",
+    "English",
+    "Tamil",
+    "Kannada"
+  ],
   "about": [
     "I learned filmmaking the traditional way: on set, behind the camera, assisting the DOP on independent films in Kannada, Tamil and Telugu. Framing, blocking, camera movement and shot division are where my work starts.",
     "From there I took creative direction to a live stage, shaping the theme and storytelling of Miss P&I India in Goa, and then to AI filmmaking as a Creative Director at Headlines Studio.",
     "AI doesn't replace that craft. It gives it a bigger canvas. I direct every generated shot the way I'd direct a set: composition, light, continuity and story first."
   ],
+  "canvasLine": "AI video tools are my new canvas.",
   "pillars": [
     {
       "name": "On set",
@@ -84,148 +229,6 @@
       "text": "Keeping creative vision and production logistics in step, from first concept to final delivery.",
       "proof": "Mudskipper Labs · Miss P&I India"
     }
-  ],
-  "categories": [
-    "Films",
-    "AI Films",
-    "Cinematic Demos",
-    "Commercial Ads"
-  ],
-  "emptyNote": "New work coming soon.",
-  "work": [
-    {
-      "title": "Kini",
-      "category": "Films",
-      "role": "Assistant DOP",
-      "year": "",
-      "duration": "",
-      "format": "Independent film · Kannada",
-      "status": "Released",
-      "description": "Independent Kannada film shot in Bangalore. Assisted the DOP on framing, camera movement and on-set coordination.",
-      "image": "",
-      "video": "https://youtu.be/8jjDsmFPISQ"
-    },
-    {
-      "title": "Blue Gold",
-      "category": "Cinematic Demos",
-      "role": "Director",
-      "year": "2026",
-      "duration": "",
-      "format": "Independent trial · Google Flow",
-      "status": "Released",
-      "description": "An independent cinematic trial built in Google Flow, directed shot by shot for look, light and continuity.",
-      "image": "",
-      "video": "https://drive.google.com/file/d/1FpebourdB-mAZb-g90_AOU5Hw6ICHefm/view"
-    },
-    {
-      "title": "Loveland Draft",
-      "category": "Cinematic Demos",
-      "role": "Director",
-      "year": "2026",
-      "duration": "",
-      "format": "Independent trial · Google Flow",
-      "status": "Released",
-      "description": "A story-led AI draft made in Google Flow, exploring character, mood and pacing.",
-      "image": "",
-      "video": "https://drive.google.com/file/d/1yC_aMG9zvpc1xpTy5m57DXOZqKJfAeSd/view"
-    },
-    {
-      "title": "Last Boat",
-      "category": "AI Films",
-      "role": "Creative Director",
-      "year": "2026",
-      "duration": "",
-      "format": "AI film · Headlines Studio",
-      "status": "Released",
-      "description": "AI video production for Headlines Studio. Creative direction and workflow, delivered remotely.",
-      "image": "",
-      "video": ""
-    },
-    {
-      "title": "Fantastic Beasts",
-      "category": "AI Films",
-      "role": "Creative Director",
-      "year": "2026",
-      "duration": "",
-      "format": "AI microdrama · Headlines Studio",
-      "status": "Released",
-      "description": "An AI microdrama for Headlines Studio, directed for character, continuity and episodic pacing.",
-      "image": "",
-      "video": ""
-    },
-    {
-      "title": "Ka-ranam",
-      "category": "Films",
-      "role": "Assistant DOP",
-      "year": "",
-      "duration": "",
-      "format": "Independent film · Tamil, Telugu",
-      "status": "Post-production",
-      "description": "Independent bilingual feature in Tamil and Telugu, currently in post-production.",
-      "image": "",
-      "video": ""
-    }
-  ],
-  "experience": [
-    {
-      "when": "2026",
-      "place": "Bengaluru · Remote",
-      "role": "Creative Director, AI video production",
-      "org": "Headlines Studio · Freelance",
-      "now": true,
-      "points": [
-        "Led creative direction and workflow for AI films: Last Boat and Fantastic Beasts (microdrama).",
-        "Independent Google Flow trials: Blue Gold and Loveland Draft."
-      ]
-    },
-    {
-      "when": "2025",
-      "place": "Goa",
-      "role": "Assistant Creative Director",
-      "org": "Miss P&I India",
-      "points": [
-        "Directed the overall creative vision and stage storytelling, aligning theme and visual presentation.",
-        "Kept creative vision and production logistics in sync from concept to final event delivery, with 80% accuracy.",
-        "Worked with sponsors and event partners to integrate brand segments into the show, closing business deals at 90% profit."
-      ]
-    },
-    {
-      "when": "2024 – 26",
-      "place": "Bangalore",
-      "role": "Assistant DOP, independent films",
-      "org": "Kini (Kannada) · Ka-ranam (Tamil, Telugu)",
-      "points": [
-        "Kini: released.",
-        "Ka-ranam: in post-production.",
-        "Assistant production (freelance) at Mudskipper Labs."
-      ]
-    },
-    {
-      "when": "2023",
-      "place": "Bangalore",
-      "role": "Spy Thriller, feature film (Kannada, Telugu)",
-      "org": "Creative team · Project shelved",
-      "points": [
-        "Worked for months with writers and the creative team to refine the screenplay, narrative arcs, character development and thematic direction."
-      ]
-    }
-  ],
-  "education": [
-    {
-      "name": "MBA, Human Resource Management",
-      "place": "Andhra University"
-    },
-    {
-      "name": "B.Tech, Electronics & Communication",
-      "place": "ANITS"
-    }
-  ],
-  "languages": [
-    "Telugu",
-    "Hindi",
-    "English",
-    "Tamil",
-    "Kannada"
   ],
   "tools": {
     "generation": [

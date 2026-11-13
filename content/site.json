@@ -35,30 +35,17 @@
   "roles": [
     "Creative Director",
     "Assistant Cinematographer",
-    "AI Video Production",
+    "AI Director",
     "Visual Storyteller"
   ],
   "categories": [
     "Films",
     "AI Films",
-    "AI Film Trails",
     "Commercial Ads",
     "My workflow Draft"
   ],
   "emptyNote": "New work coming soon.",
   "work": [
-    {
-      "title": "Kini",
-      "category": "Films",
-      "role": "Assistant DOP",
-      "year": "",
-      "duration": "",
-      "format": "Independent film · Kannada",
-      "status": "Released",
-      "description": "Independent Kannada film shot in Bangalore. Assisted the DOP on framing, camera movement and on-set coordination.",
-      "video": "https://youtu.be/8jjDsmFPISQ",
-      "image": ""
-    },
     {
       "title": "Blue Gold",
       "category": "Cinematic Demos",
@@ -72,25 +59,13 @@
       "image": ""
     },
     {
-      "title": "Loveland Draft",
-      "category": "Cinematic Demos",
-      "role": "Director",
-      "year": "2026",
-      "duration": "",
-      "format": "Independent trial · Google Flow",
-      "status": "Released",
-      "description": "A story-led AI draft made in Google Flow, exploring character, mood and pacing.",
-      "video": "https://drive.google.com/file/d/1yC_aMG9zvpc1xpTy5m57DXOZqKJfAeSd/view",
-      "image": ""
-    },
-    {
       "title": "Last Boat",
       "category": "AI Films",
       "role": "Creative Director",
       "year": "2026",
       "duration": "",
       "format": "AI film · Headlines Studio",
-      "status": "Post-production",
+      "status": "Released",
       "description": "AI video production for Headlines Studio. Video generation and Creative direction workflow, delivered remotely.",
       "video": "https://drive.google.com/file/d/1WpTflVu8KURq48Omq1C0A2rig3GYfTeq/view?usp=sharing",
       "image": ""
@@ -108,15 +83,15 @@
       "image": ""
     },
     {
-      "title": "Ka-ranam",
-      "category": "Films",
-      "role": "Assistant DOP + Actor",
-      "year": "",
+      "title": "Loveland Draft",
+      "category": "Cinematic Demos",
+      "role": "Director",
+      "year": "2026",
       "duration": "",
-      "format": "Independent film · Tamil, Telugu",
-      "status": "Post-production",
-      "description": "Independent bilingual feature in Tamil and Telugu, currently in post-production.",
-      "video": "https://youtu.be/kJLdY-aq97Q?si=WTt1B--F43F629DY",
+      "format": "Independent trial · Google Flow",
+      "status": "Released",
+      "description": "A story-led AI draft made in Google Flow, exploring character, mood and pacing.",
+      "video": "https://drive.google.com/file/d/1yC_aMG9zvpc1xpTy5m57DXOZqKJfAeSd/view",
       "image": ""
     },
     {
@@ -134,25 +109,49 @@
     {
       "title": "My workflow Draft",
       "category": "AI Films",
-      "role": "AI Director",
+      "role": "Ai Director",
       "year": "",
       "duration": "",
       "format": "",
-      "status": "In production",
-      "description": "My workflow bridges narrative vision and visual execution, turning scripts into clear visual plans through storyboarding, detailed shot division, and camera framing for AI film production.As well as",
-      "video": "https://drive.google.com/file/d/1FmRkYJjpjdBtefy26tUoPOVB48Q8-ioU/view?usp=sharing",
+      "status": "Released",
+      "description": "My Direction mainly focusing on to save credits and Time and less revisions \n1.Fixing story and screenplay \n2.Building Required assets \n3.storyboard and shot division with own detailing\n4.Scene division\n5. Prompting to save credits and time and \n6.assigning and producing content \n7.post production",
+      "video": "https://docs.google.com/document/d/1QzMnQ8G2lVp1KERNXJ55jFRkEjZBfJE8/edit?usp=sharing&ouid=105298937196326739129&rtpof=true&sd=true",
       "image": ""
     },
     {
       "title": "My workflow Draft",
       "category": "AI Films",
-      "role": "Ai Director",
+      "role": "AI Director",
       "year": "",
       "duration": "",
       "format": "",
-      "status": "In production",
-      "description": "My Direction mainly focusing on to save credits and Time and less revisions \n1.Fixing story and screenplay \n2.Building Required assets \n3.storyboard and shot division with own detailing\n4.Scene division\n5. Prompting to save credits and time and \n6.assigning and producing content \n7.post production",
-      "video": "https://docs.google.com/document/d/1QzMnQ8G2lVp1KERNXJ55jFRkEjZBfJE8/edit?usp=sharing&ouid=105298937196326739129&rtpof=true&sd=true",
+      "status": "Released",
+      "description": "My workflow bridges narrative vision and visual execution, turning scripts into clear visual plans through storyboarding, detailed shot division, and camera framing for AI film production.As well as",
+      "video": "https://drive.google.com/file/d/1FmRkYJjpjdBtefy26tUoPOVB48Q8-ioU/view?usp=sharing",
+      "image": ""
+    },
+    {
+      "title": "Kini",
+      "category": "Films",
+      "role": "Assistant DOP",
+      "year": "",
+      "duration": "",
+      "format": "Independent film · Kannada",
+      "status": "Released",
+      "description": "Independent Kannada film shot in Bangalore. Assisted the DOP on framing, camera movement and on-set coordination.",
+      "video": "https://youtu.be/8jjDsmFPISQ",
+      "image": ""
+    },
+    {
+      "title": "Ka-ranam",
+      "category": "Films",
+      "role": "Assistant DOP + Actor",
+      "year": "",
+      "duration": "",
+      "format": "Independent film · Tamil, Telugu",
+      "status": "Post-production",
+      "description": "Independent bilingual feature in Tamil and Telugu, currently in post-production.",
+      "video": "https://youtu.be/kJLdY-aq97Q?si=WTt1B--F43F629DY",
       "image": ""
     }
   ],

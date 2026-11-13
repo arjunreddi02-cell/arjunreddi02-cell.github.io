@@ -43,7 +43,7 @@
     "AI Films",
     "Cinematic Demos",
     "Commercial Ads",
-    "My workflow"
+    "My workflow Draft"
   ],
   "emptyNote": "New work coming soon.",
   "work": [
@@ -120,7 +120,7 @@
       "image": ""
     },
     {
-      "title": "3 Test ADs - South Indian",
+      "title": "3 ADs - South Indian",
       "category": "Commercial Ads",
       "role": "",
       "year": "",
@@ -132,15 +132,27 @@
       "image": ""
     },
     {
-      "title": "My workflow - Micro Drama",
+      "title": "My workflow Draft",
       "category": "AI Films",
-      "role": "Creative Director",
+      "role": "AI Director",
       "year": "",
       "duration": "",
       "format": "",
       "status": "In production",
-      "description": "My workflow bridges narrative vision and visual execution, turning scripts into clear visual plans through storyboarding, detailed shot division, and camera framing for AI film production.",
+      "description": "My workflow bridges narrative vision and visual execution, turning scripts into clear visual plans through storyboarding, detailed shot division, and camera framing for AI film production.As well as",
       "video": "https://drive.google.com/file/d/1FmRkYJjpjdBtefy26tUoPOVB48Q8-ioU/view?usp=sharing",
+      "image": ""
+    },
+    {
+      "title": "My workflow Draft",
+      "category": "AI Films",
+      "role": "Ai Director",
+      "year": "",
+      "duration": "",
+      "format": "",
+      "status": "In production",
+      "description": "My Direction mainly focusing on to save credits and Time and less revisions \n1.Fixing story and screenplay \n2.Building Required assets \n3.storyboard and shot division with own detailing\n4.Scene division\n5. Prompting to save credits and time and \n6.assigning and producing content \n7.post production",
+      "video": "https://docs.google.com/document/d/1QzMnQ8G2lVp1KERNXJ55jFRkEjZBfJE8/edit?usp=sharing&ouid=105298937196326739129&rtpof=true&sd=true",
       "image": ""
     }
   ],
